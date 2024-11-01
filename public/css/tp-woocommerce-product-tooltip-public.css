@@ -1,0 +1,675 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .tpwpttooltip iframe{
+     margin: 10px 0;
+ }
+
+ .tpwpttooltip p{
+    margin: 0 0 !important;
+    padding: 0 !important;
+ }
+
+ .tpwpttooltip {
+    display:inline-block;
+    position:relative;
+    margin: 0 !important;
+    width: 100%;
+    z-index: 999;
+}
+.tpwpttooltip_style {
+    width: 200px;
+    padding: 20px;
+    color: #444444;
+    background-color: #EEEEEE;
+    font-weight: normal;
+    font-size: 13px;
+    border-radius: 8px;
+    margin: 0 0 0;
+    box-sizing: border-box;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+    display: none;
+}
+.tpwpttooltip:hover .tpwpttooltip_style  {
+    display:block;
+}
+
+.tp_youtube .tp_play_large {
+    width: 100px;
+    height: 60px;
+    padding: 0;
+    background: #DC4539;
+    position: relative;
+    border-radius: 15px 15px 15px 15px / 45px 45px 45px 45px;
+    display: table;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -50px;
+    z-index: 2;
+}
+.tp_play_large:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-left: 26px solid #fff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    margin: -15px 0 0 -13px;
+}
+
+.tp_youtube .tp_play_medium {
+    width: 70px;
+    height: 45px;
+    padding: 0;
+    background: #DC4539;
+    position: relative;
+    border-radius: 15px 15px 15px 15px / 45px 45px 45px 45px;
+    display: table;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-30px 0 0 -35px;
+    z-index: 2;
+}
+.tp_play_medium:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-left: 18px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin: -10px 0 0 -9px;
+}
+
+
+.tp_play_small {
+    width: 36px;
+    height: 24px;
+    margin: 0 auto;
+    background: #DC4539;
+    position: relative;
+    border-radius: 15px 15px 15px 15px / 45px 45px 45px 45px;
+    display: table;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -12px 0 0 -18px;
+    z-index: 2;
+
+}
+.tp_play_small:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -6px;
+    margin-top: -6px;
+    border-left: 12px solid #fff;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+.tp_youtube {
+    width: 100%;
+    padding: 0 0 10px;
+    position: relative;
+    display: table;
+}
+
+.tp_youtube img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.archive .categoryno{
+    display: none;
+}
+
+/********************** top **********************/
+.tpwpttooltip .tpwpttooltip_top {
+    transform: translate(0%, -100%);
+}
+
+
+.tpwpttooltip .tpwpttooltip_top i {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 12px;
+    overflow: hidden;
+}
+
+.tpwpttooltip .tpwpttooltip_top i::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 25px;
+    transform: translate(-50%,-50%) rotate(45deg);
+    background-color: #EEEEEE;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+/********************** top **********************/
+
+/********************** top left **********************/
+.tpwpttooltip .tpwpttooltip_top_left {
+    transform:translate(0, -100%);
+}
+
+.tpwpttooltip .tpwpttooltip_top_left i {
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 12px;
+    overflow: hidden;
+}
+
+.tpwpttooltip .tpwpttooltip_top_left i::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 25px;
+    transform: translate(-50%,-50%) rotate(45deg);
+    background-color: #EEEEEE;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+/********************** top left **********************/
+
+/********************** top right **********************/
+.tpwpttooltip .tpwpttooltip_top_right {
+    transform: translate(0, -100%);
+}
+
+.tpwpttooltip .tpwpttooltip_top_right i {
+    position: absolute;
+    bottom: -11px;
+    right: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 12px;
+    overflow: hidden;
+}
+
+.tpwpttooltip .tpwpttooltip_top_right i::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 15px;
+    transform: translate(-50%,-50%) rotate(45deg);
+    background-color: #EEEEEE;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+/********************** top right **********************/
+
+
+/********************** right top **********************/
+.tpwpttooltip_animated .tpwpttooltip_right_top {
+    transform: translate(100%, -100%);
+}
+    
+    
+    .tpwpttooltip_animated .tpwpttooltip_right_top i {
+        position: absolute;
+        top: 0;
+        left: -12px;
+        margin-top: 0;
+        width: 12px;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .tpwpttooltip_animated .tpwpttooltip_right_top i::after {
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        left: 12px;
+        bottom: 15px;
+        transform: translate(-50%,-50%) rotate(-45deg);
+        background-color: #EEEEEE;
+        box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+    }
+    
+
+/********************** right top **********************/
+
+/********************** right bottom **********************/
+.tpwpttooltip .tpwpttooltip_right_bottom {
+    transform: translate(0%, 0);
+}
+
+    .tpwpttooltip .tpwpttooltip_right_bottom i {
+        position: absolute;
+        top: 0;
+        left: -12px;
+        margin-top: 0;
+        width: 12px;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .tpwpttooltip .tpwpttooltip_right_bottom i::after {
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        left: 12px;
+        top: calc(24px + 15px);
+        transform: translate(-50%,-50%) rotate(-45deg);
+        background-color: #EEEEEE;
+        box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+    }
+
+/********************** right bottom **********************/
+
+
+/********************** bottom **********************/
+.tpwpttooltip .tpwpttooltip_bottom {
+    width: 100% !important;
+}
+
+.tpwpttooltip .tpwpttooltip_bottom i {
+    position: absolute;
+    top: -12px;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 12px;
+    overflow: hidden;
+}
+
+.tpwpttooltip .tpwpttooltip_bottom i::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 25px;
+    transform: translate(-50%,50%) rotate(45deg);
+    background-color: #EEEEEE;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+
+/********************** bottom **********************/
+
+/********************** bottom left **********************/
+.tpwpttooltip .tpwpttooltip_bottom_left {
+    transform: translate(0%, 100%);
+}
+
+.tpwpttooltip .tpwpttooltip_bottom_left i {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 12px;
+    overflow: hidden;
+}
+
+.tpwpttooltip .tpwpttooltip_bottom_left i::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 25px;
+    transform: translate(-50%,50%) rotate(45deg);
+    background-color: #EEEEEE;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+/********************** bottom left **********************/
+
+/********************** bottom right **********************/
+.tpwpttooltip .tpwpttooltip_bottom_right {
+    transform: translate(0, 100%);
+}
+
+.tpwpttooltip .tpwpttooltip_bottom_right i {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 12px;
+    overflow: hidden;
+}
+
+.tpwpttooltip .tpwpttooltip_bottom_right i::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 15px;
+    transform: translate(-50%,50%) rotate(45deg);
+    background-color: #EEEEEE;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+/********************** bottom right **********************/
+
+
+
+
+/********************** left top **********************/
+.tpwpttooltip .tpwpttooltip_left_top {
+    transform: translate(-100%, 0);
+}
+
+.tpwpttooltip .tpwpttooltip_left_top i {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    margin-top: 0;
+    width: 12px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.tpwpttooltip .tpwpttooltip_left_top i::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    bottom: 15px;
+    transform: translate(-50%,-50%) rotate(-45deg);
+    background-color: #EEEEEE;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+
+/********************** left top **********************/
+
+/********************** left bottom **********************/
+.tpwpttooltip .tpwpttooltip_left_bottom {
+    transform: translate(-100%, 0);
+}
+
+.tpwpttooltip .tpwpttooltip_left_bottom i {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-top: 0;
+    width: 12px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.tpwpttooltip .tpwpttooltip_left_bottom i::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 30px;
+    transform: translate(-50%,-50%) rotate(-45deg);
+    background-color: #EEEEEE;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+
+/********************** left bottom **********************/
+
+/********************** icons **********************/
+
+@font-face {
+    font-family: 'WooCommerce';
+    src:    url('../fonts/WooCommerce.eot?jj1bj4');
+    src:    url('../fonts/WooCommerce.eot?jj1bj4#iefix') format('embedded-opentype'),
+        url('../fonts/WooCommerce.ttf?jj1bj4') format('truetype'),
+        url('../fonts/WooCommerce.woff?jj1bj4') format('woff'),
+        url('../fonts/WooCommerce.svg?jj1bj4#WooCommerce') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="wcicon-"], [class*=" wcicon-"]{
+    font-family: 'WooCommerce' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 5px 0 0;
+    font-size: 0.7em;
+}
+
+.wcicon-storefront:before {
+    content: "\e900";
+}
+.wcicon-ccv:before {
+    content: "\e604";
+}
+.wcicon-virtual:before {
+    content: "\e000";
+}
+.wcicon-up-down:before {
+    content: "\e022";
+}
+.wcicon-reports:before {
+    content: "\e023";
+}
+.wcicon-refresh:before {
+    content: "\e031";
+}
+.wcicon-navigation:before {
+    content: "\e032";
+}
+.wcicon-status-fill:before {
+    content: "\e03c";
+}
+.wcicon-contract:before {
+    content: "\e004";
+}
+.wcicon-downloadable:before {
+    content: "\e001";
+}
+.wcicon-plus:before {
+    content: "\e007";
+}
+.wcicon-simple:before {
+    content: "\e006";
+}
+.wcicon-on-hold:before {
+    content: "\e033";
+}
+.wcicon-external:before {
+    content: "\e034";
+}
+.wcicon-contract-2:before {
+    content: "\e036";
+}
+.wcicon-expand-2:before {
+    content: "\e035";
+}
+.wcicon-phone:before {
+    content: "\e037";
+}
+.wcicon-user:before {
+    content: "\e038";
+}
+.wcicon-status:before {
+    content: "\e039";
+}
+.wcicon-status-pending:before {
+    content: "\e012";
+}
+.wcicon-status-cancelled:before {
+    content: "\e013";
+}
+.wcicon-west:before {
+    content: "\e02f";
+}
+.wcicon-south:before {
+    content: "\e02e";
+}
+.wcicon-mail:before {
+    content: "\e02d";
+}
+.wcicon-inventory:before {
+    content: "\e02c";
+}
+.wcicon-attributes:before {
+    content: "\e02b";
+}
+.wcicon-north:before {
+    content: "\e02a";
+}
+.wcicon-east:before {
+    content: "\e029";
+}
+.wcicon-note:before {
+    content: "\e028";
+}
+.wcicon-windows:before {
+    content: "\e027";
+}
+.wcicon-user2:before {
+    content: "\e026";
+}
+.wcicon-search-2:before {
+    content: "\e025";
+}
+.wcicon-search:before {
+    content: "\e024";
+}
+.wcicon-star-empty:before {
+    content: "\e021";
+}
+.wcicon-share:before {
+    content: "\e030";
+}
+.wcicon-phone-fill:before {
+    content: "\e03b";
+}
+.wcicon-woo:before {
+    content: "\e03d";
+}
+.wcicon-user-fill:before {
+    content: "\e03a";
+}
+.wcicon-grouped:before {
+    content: "\e002";
+}
+.wcicon-status-refunded:before {
+    content: "\e014";
+}
+.wcicon-status-completed:before {
+    content: "\e015";
+}
+.wcicon-variable:before {
+    content: "\e003";
+}
+.wcicon-expand:before {
+    content: "\e005";
+}
+.wcicon-status-failed:before {
+    content: "\e016";
+}
+.wcicon-check:before {
+    content: "\e017";
+}
+.wcicon-right:before {
+    content: "\e008";
+}
+.wcicon-up:before {
+    content: "\e009";
+}
+.wcicon-query:before {
+    content: "\e018";
+}
+.wcicon-down:before {
+    content: "\e00a";
+}
+.wcicon-truck-1:before {
+    content: "\e019";
+}
+.wcicon-left:before {
+    content: "\e00b";
+}
+.wcicon-truck-2:before {
+    content: "\e01a";
+}
+.wcicon-image:before {
+    content: "\e00c";
+}
+.wcicon-globe:before {
+    content: "\e01b";
+}
+.wcicon-link:before {
+    content: "\e00d";
+}
+.wcicon-gear:before {
+    content: "\e01c";
+}
+.wcicon-calendar:before {
+    content: "\e00e";
+}
+.wcicon-cart:before {
+    content: "\e01d";
+}
+.wcicon-processing:before {
+    content: "\e00f";
+}
+.wcicon-card:before {
+    content: "\e01e";
+}
+.wcicon-view:before {
+    content: "\e010";
+}
+.wcicon-stats:before {
+    content: "\e01f";
+}
+.wcicon-status-processing:before {
+    content: "\e011";
+}
+.wcicon-star-full:before {
+    content: "\e020";
+}
+.wcicon-coupon:before {
+    content: "\e600";
+}
+.wcicon-limit:before {
+    content: "\e601";
+}
+.wcicon-restricted:before {
+    content: "\e602";
+}
+.wcicon-edit:before {
+    content: "\e603";
+}
+
+/********************** icons **********************/
+
+
+.tp_icon_txt {
+    padding: 15px 0;
+    float: left;
+}
+
+/* set button(top and bottom of the scrollbar) */
+._tpt_scrollbar::-webkit-scrollbar-button {display:none}
+
+/* div box */
+._tpt_scrollbar {
+    height: auto;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+@media (min-width: 768px){
+    .tpwpttooltip {
+        width: auto;
+    }    
+}

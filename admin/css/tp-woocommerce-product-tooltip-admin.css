@@ -1,0 +1,429 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /* #woocommerce-product-data ul.wc-tabs li.marketplace-suggestions_tab a::before {
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\f101";
+    text-decoration: none;
+} */
+
+#woocommerce-product-data ul.wc-tabs li.tp-tooltip-tab_options a::before{
+    content: "\f101";
+}
+
+._tpt_description_field textarea{
+    min-height: 100px;
+}
+
+._tpt_css_background_field .tp_tooltip_minicolors-input,
+._tpt_css_color_field .tp_tooltip_minicolors-input{
+    width: 100% !important;
+}
+
+#_tpt_youtube_icon_color{
+    width: 100px !important;
+}
+
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .tpwpt-warp{
+    direction: ltr;
+    text-align: left;
+}
+.tpwpt-warp h2{
+    padding: 10px 0 15px 0 !important;
+}
+#tpwpt-tab-nav {
+    background: #333;
+}
+#tpwpt-tab-nav span.tabnav {
+    display: inline-block;
+    padding: 20px 15px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+#tpwpt-tab-nav span.active {
+    background: #96588a;
+}
+.tpwpt_admin_settings_right {
+    width: 48%;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.tpwpt_admin_settings_left {
+    width: 48%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+/* [CONTENTS] */
+#tpwpt-tab-contents {
+    padding: 20px;
+    margin: 0 0 15px 0;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    background: #fff;
+    min-height: 250px;
+}
+#tpwpt-tab-contents div.tabtxt {
+    display: none;
+}
+#tpwpt-tab-contents div.active {
+    display: block;
+}
+
+.tps-gcf-submit{
+    color: #fff;
+    background: #0073aa;
+    border: 0;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.tpwpt_pro_span{
+    background: #96588a;
+    padding: 4px 10px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 0 0 10px;
+    border-radius: 10px;
+}
+.tps_admin_section .dashicons {
+    margin: 0 10px 0 0;
+}
+.tpwpt_admin_settings_desc{
+    font-size: 12px;
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+}
+.tpwpt_admin_settings_row_2{
+    width: 35%;
+    float: left;
+    margin: 0;
+    padding: 0 15px 0 0;
+}
+.tpwpt-container-text {
+    display: block;
+    position: relative;
+    padding-left: 0;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Customize the label (the tpwpt-container-checkbox) */
+.tpwpt-container-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.tpwpt-container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.tpwpt_admin_settings_row{
+    width: 100%;
+    float: left;
+    background: #f5f5f5;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.tpwpt_triangle_topright_box{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tpwpt_triangle_topright {
+    width: 0;
+    height: 0;
+    border-top: 60px solid #96588a;
+    border-left: 80px solid transparent;
+}
+.tpwpt_triangle_topright span{
+    position: absolute;
+    top: 8px;
+    color: #fff;
+    right: 10px;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+/* On mouse-over, add a grey background color */
+.tpwpt-container-checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.tpwpt-container-checkbox input:checked ~ .checkmark {
+    background-color: #96588a;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.tpwpt-container-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.tpwpt-container-checkbox .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.tp_video_radio{
+    float: left !important;
+}
+.tp_video_radio input{
+    margin: 5px 5px 0 15px !important;
+    float: left !important;
+}
+
+.dashicons-admin-tp{
+    background: url(../images/tp.png) no-repeat center center;
+}
+
+.tpwpt_save_license_key{
+    width: auto;
+    padding: 7px 20px;
+    background: #96588a;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.tps_admin_section input{
+    width: 200px;
+}
+.tpwpt_full{
+    width: 100%;
+}
+.tpwpt_clear{
+    float: left;
+    margin: 15px 0;
+}
+.tpa_error_desc,
+.tpa_error_warning,
+.tpa_success_desc{
+    padding: 5px 10px;
+    margin: 15px 0;
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid;
+    width: auto;
+}
+
+.tpa_success_desc{
+    color: green;
+}
+.tpa_error_desc{
+    color: #e21818;
+}
+.tpa_error_warning{
+    color: #ff8c15;
+}
+
+.tpwpt_lkey_expiresat{
+    padding:0;
+    margin: 15px 0;
+    font-size: 15px;
+    display: inline-block;
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.license_key_expires_message{
+    padding: 10px 15px;
+    width: auto;
+    color: #e21818;
+    float: left;
+    border: 1px solid;
+}
+.tpwpt-ring-mask{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    display: none;
+}
+
+/* <div class="tpwpt-ring"><div></div><div></div><div></div><div></div></div> */
+.tpwpt-ring {
+    margin: 30px 0;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.tpwpt-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fcf;
+    border-radius: 50%;
+    animation: tpwpt-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fcf transparent transparent transparent;
+}
+.tpwpt-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.tpwpt-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.tpwpt-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes tpwpt-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* <div class="tpwpt-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div> */
+.tpwpt-roller {
+    margin: 30px 0;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.tpwpt-roller div {
+    animation: tpwpt-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+.tpwpt-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fcf;
+    margin: -4px 0 0 -4px;
+}
+.tpwpt-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+.tpwpt-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+}
+.tpwpt-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+.tpwpt-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+}
+.tpwpt-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+.tpwpt-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+}
+.tpwpt-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+.tpwpt-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+.tpwpt-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+.tpwpt-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+}
+.tpwpt-roller div:nth-child(6) {
+animation-delay: -0.216s;
+}
+.tpwpt-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+}
+.tpwpt-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+.tpwpt-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+}
+.tpwpt-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+.tpwpt-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+}
+@keyframes tpwpt-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
